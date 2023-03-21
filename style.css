@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 110px;
+    /* border: 2px solid red; */
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    /* border: 2px solid black; */
+    width: 327px;
+    height: 19px;
+    justify-content: space-between;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.navbar ul li a:hover {
+
+    border-bottom: 2px solid gold;
+}
+
+.navbar img:nth-child(2) {
+    display: flex;
+    position: absolute;
+    top: 37px;
+    left: 643px;
+}
+
+.navbar img:nth-child(3) {
+    position: absolute;
+    top: 31px;
+    left: 903px;
+}
+
+.navbar img:nth-child(4) {
+    position: absolute;
+    left: 1150px;
+    top: 31px;
+}
+
+.navbar img:nth-child(5) {
+    position: absolute;
+    left: 1165px;
+}
+
+.navbar img:nth-child(6) {
+    position: absolute;
+    left: 1135px;
+}
+
+.navbar img:nth-child(7) {
+    position: absolute;
+    left: 1300px;
+}
+
+.navbar img:nth-child(8) {
+    position: absolute;
+    left: 1340px;
+}
+
+.navbar img:nth-child(9) {
+    position: absolute;
+    left: 1380px;
+}
+
+.navbar input {
+    display: flex;
+    position: absolute;
+    Width: 288px;
+    Height: 50px;
+    top: 31px;
+    left: 910px;
+    padding-left: 17px;
+}
+
+.main .vor2007 {
+    position: absolute;
+    z-index: 1;
+}
+
+.main p:nth-child(2) {
+    z-index: 2;
+    position: absolute;
+    width: 75px;
+    height: 14px;
+    top: 260px;
+    left: 136px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #023047;
+}
+
+.main p:nth-child(3) {
+    position: absolute;
+    width: 470px;
+    height: 123px;
+    left: 135px;
+    top: 285px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    z-index: 2;
+    color: #333333;
+}
+
+.main p:nth-child(4) {
+    position: absolute;
+    width: 469px;
+    height: 34px;
+    left: 136px;
+    top: 422px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 118%;
+    z-index: 2;
+
+
+    color: #333333;
+
+}
+
+.main .box {
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 135px;
+    top: 488px;
+    padding: 18px 25px;
+    background: #023047;
+    z-index: 2;
+}
+
+.main .box p {
+    width: 80px;
+    height: 17px;
+    left: 160px;
+    top: 504px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 118%;
+    z-index: 2;
+
+    color: #FFFFFF;
+
+}
+
+.main .vo1r2007 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 65px;
+    top: 365px;
+    z-index: 2;
+}
+
+.main .vo2r2007 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1335px;
+    top: 365px;
+    z-index: 2;
+}
+
+.main .vo3r2007 {
+    position: absolute;
+    width: 50px;
+    height: 64px;
+    left: 688px;
+    top: 611px;
+    z-index: 20;
+}
+
+.main2 .neymar {
+    width: 570px;
+    height: 450px;
+    left: 135px;
+    top: 760px;
+    position: absolute;
+}
+
+.main2 p:nth-child(2) {
+    position: absolute;
+    width: 78px;
+    height: 20px;
+    left: 472px;
+    top: 955px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #023047;
+
+}
+
+.main2 p:nth-child(3) {
+    position: absolute;
+    width: 208px;
+    height: 35px;
+    left: 472px;
+    top: 985px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.main2 p:nth-child(4) {
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 472px;
+    top: 1030px;
+
+    background: #FFFFFF;
+    border: 1px solid #666666;
+    padding: 14px 13px;
+}
+
+.main2 h1 {
+    position: absolute;
+    width: 92px;
+    height: 20px;
+    left: 773px;
+    top: 820px;
+    z-index: 2;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #023047;
+}
+
+.main2 .text {
+    position: absolute;
+    width: 209px;
+    height: 35px;
+    left: 773px;
+    top: 839px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    z-index: 2;
+
+
+    color: #000000;
+}
+
+.main2 .text1 {
+    position: absolute;
+    width: 110px;
+    height: 45px;
+    left: 773px;
+    top: 879px;
+
+    background: #FFFFFF;
+    border: 1px solid #666666;
+padding: 12px 18px;
+
+}
+
+.main2 .neymar1 {
+    position: absolute;
+    width: 570px;
+    height: 210px;
+    left: 735px;
+    top: 760px;
+}
+.main2 .neymar2{
+    position: absolute;
+width: 570px;
+height: 210px;
+left: 735px;
+top: 1000px;
+}
+.main2 .text2{
+    position: absolute;
+    width: 73px;
+    height: 20px;
+    left: 1060px;
+    top: 1060px;
+    
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    
+    color: #023047;
+}
+.main2 .text3{
+    position: absolute;
+    width: 223px;
+    height: 35px;
+    left: 1060px;
+    top: 1079px;
+    
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+   
+    
+    
+    color: #000000;
+    
+}
+.main2 .text4{
+    position: absolute;
+width: 110px;
+height: 45px;
+left: 1060px;
+top: 1119px;
+
+background: #FFFFFF;
+border: 1px solid #666666;
+padding: 12px 18px;
+}
